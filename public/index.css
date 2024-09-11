@@ -1,0 +1,15 @@
+body{
+background-color: gainsboro
+}
+input{
+margin-left:550px;
+margin-top: 30px;
+height:50px;
+width:200px;
+border-radius: 10px;
+background-color: #00ab41;
+color: white;
+}
+#f{
+    margin-top: 150px;
+}
