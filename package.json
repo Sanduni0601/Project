@@ -1,0 +1,23 @@
+{
+  "name": "hiru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^2.0.1",
+    "doc": "^0.0.3",
+    "docx": "^8.5.0",
+    "express": "^4.20.0",
+    "fs": "^0.0.1-security",
+    "kit": "^0.1.2",
+    "nodemon": "^3.1.4",
+    "pdf": "^0.1.0",
+    "pdfkit": "^0.15.0"
+  }
+}
