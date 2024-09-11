@@ -7,6 +7,7 @@ const docx = require('docx'); // Word document library
 const { Document, Packer, Paragraph, TextRun } = docx;
 const app = express();
 const port = 3000;
+const hostname='0.0.0.0';
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -315,5 +316,5 @@ app.get('/download-word', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`App running at`, port);
+    console.log(`App running at http://${hostname}:, ${port}/`);
 });
